@@ -30,10 +30,9 @@
   <depend>joint_limits_interface</depend>
   <depend>transmission_interface</depend>
   <depend>eigen_conversions</depend>
-  <depend>franka_hw</depend>
-  <depend>franka_msgs</depend>
-  <depend>franka_gripper</depend>
-  <depend>franka_example_controllers</depend>
+  <depend>franka_mujoco</depend>
+  <depend>mujoco_ros</depend>
+  <depend>mujoco_ros_control</depend>
 
   <exec_depend>roscpp</exec_depend>
   <exec_depend>rospy</exec_depend>
