@@ -28,8 +28,8 @@ catkin_package(
   INCLUDE_DIRS include
   LIBRARIES safe_placement
   CATKIN_DEPENDS controller_interface 
-                 franka_hw 
-                 franka_gripper 
+                 franka_mujoco
+                 mujoco_ros
                  geometry_msgs 
                  hardware_interface 
                  joint_limits_interface 
